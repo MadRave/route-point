@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Button name="ФормаВвестиДанныеАутентификации" id="53">
+				<Type>CommandBarButton</Type>
+				<Representation>PictureAndText</Representation>
+				<CommandName>Form.Command.ВвестиДанныеАутентификации</CommandName>
+				<Picture>
+					<xr:Ref>StdPicture.ExecuteTask</xr:Ref>
+					<xr:LoadTransparent>true</xr:LoadTransparent>
+				</Picture>
+				<ExtendedTooltip name="ФормаВвестиДанныеАутентификацииРасширеннаяПодсказка" id="54"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<Events>
+		<Event name="BeforeWriteAtServer">ПередЗаписьюНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<InputField name="Код" id="1">
+			<DataPath>Объект.Code</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="КодКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="КодРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<UsualGroup name="ГруппаНаименованиеРодитель" id="47">
+			<Group>AlwaysHorizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаНаименованиеРодительРасширеннаяПодсказка" id="48"/>
+			<ChildItems>
+				<InputField name="Наименование" id="4">
+					<DataPath>Объект.Description</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
+					<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
+				</InputField>
+				<InputField name="Родитель" id="7">
+					<DataPath>Объект.Parent</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ChoiceHistoryOnInput>DontUse</ChoiceHistoryOnInput>
+					<ContextMenu name="РодительКонтекстноеМеню" id="8"/>
+					<ExtendedTooltip name="РодительРасширеннаяПодсказка" id="9"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<InputField name="ИдентификаторСервиса" id="10">
+			<DataPath>Объект.ИдентификаторСервиса</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<AutoMaxWidth>false</AutoMaxWidth>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ИдентификаторСервисаКонтекстноеМеню" id="11"/>
+			<ExtendedTooltip name="ИдентификаторСервисаРасширеннаяПодсказка" id="12"/>
+		</InputField>
+		<InputField name="МодульAPI" id="16">
+			<DataPath>Объект.МодульAPI</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<AutoMaxWidth>false</AutoMaxWidth>
+			<HorizontalStretch>true</HorizontalStretch>
+			<ChoiceButton>true</ChoiceButton>
+			<ClearButton>true</ClearButton>
+			<OpenButton>true</OpenButton>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ChoiceHistoryOnInput>DontUse</ChoiceHistoryOnInput>
+			<ContextMenu name="МодульAPIКонтекстноеМеню" id="17"/>
+			<ExtendedTooltip name="МодульAPIРасширеннаяПодсказка" id="18"/>
+		</InputField>
+		<Pages name="ГруппаСтраницы" id="49">
+			<ExtendedTooltip name="ГруппаСтраницыРасширеннаяПодсказка" id="50"/>
+			<ChildItems>
+				<Page name="ГруппаПрикладныеОперации" id="51">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Прикладные операции</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="ГруппаПрикладныеОперацииРасширеннаяПодсказка" id="52"/>
+					<ChildItems>
+						<Table name="ПрикладныеОперации" id="22">
+							<Representation>List</Representation>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>Объект.ПрикладныеОперации</DataPath>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="ПрикладныеОперацииКонтекстноеМеню" id="23"/>
+							<AutoCommandBar name="ПрикладныеОперацииКоманднаяПанель" id="24"/>
+							<ExtendedTooltip name="ПрикладныеОперацииРасширеннаяПодсказка" id="25"/>
+							<SearchStringAddition name="ПрикладныеОперацииСтрокаПоиска" id="26">
+								<AdditionSource>
+									<Item>ПрикладныеОперации</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ПрикладныеОперацииСтрокаПоискаКонтекстноеМеню" id="27"/>
+								<ExtendedTooltip name="ПрикладныеОперацииСтрокаПоискаРасширеннаяПодсказка" id="28"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="ПрикладныеОперацииСостояниеПросмотра" id="29">
+								<AdditionSource>
+									<Item>ПрикладныеОперации</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ПрикладныеОперацииСостояниеПросмотраКонтекстноеМеню" id="30"/>
+								<ExtendedTooltip name="ПрикладныеОперацииСостояниеПросмотраРасширеннаяПодсказка" id="31"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="ПрикладныеОперацииУправлениеПоиском" id="32">
+								<AdditionSource>
+									<Item>ПрикладныеОперации</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="ПрикладныеОперацииУправлениеПоискомКонтекстноеМеню" id="33"/>
+								<ExtendedTooltip name="ПрикладныеОперацииУправлениеПоискомРасширеннаяПодсказка" id="34"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="ПрикладныеОперацииНомерСтроки" id="35">
+									<DataPath>Объект.ПрикладныеОперации.LineNumber</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ПрикладныеОперацииНомерСтрокиКонтекстноеМеню" id="36"/>
+									<ExtendedTooltip name="ПрикладныеОперацииНомерСтрокиРасширеннаяПодсказка" id="37"/>
+								</LabelField>
+								<InputField name="ПрикладныеОперацииИдентификаторОперации" id="38">
+									<DataPath>Объект.ПрикладныеОперации.ИдентификаторОперации</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ПрикладныеОперацииИдентификаторОперацииКонтекстноеМеню" id="39"/>
+									<ExtendedTooltip name="ПрикладныеОперацииИдентификаторОперацииРасширеннаяПодсказка" id="40"/>
+								</InputField>
+								<InputField name="ПрикладныеОперацииМодульОперации" id="41">
+									<DataPath>Объект.ПрикладныеОперации.МодульОперации</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ChoiceButton>true</ChoiceButton>
+									<ClearButton>true</ClearButton>
+									<OpenButton>true</OpenButton>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ChoiceHistoryOnInput>DontUse</ChoiceHistoryOnInput>
+									<ContextMenu name="ПрикладныеОперацииМодульОперацииКонтекстноеМеню" id="42"/>
+									<ExtendedTooltip name="ПрикладныеОперацииМодульОперацииРасширеннаяПодсказка" id="43"/>
+								</InputField>
+								<InputField name="ПрикладныеОперацииОписание" id="44">
+									<DataPath>Объект.ПрикладныеОперации.Описание</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<OpenButton>true</OpenButton>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ПрикладныеОперацииОписаниеКонтекстноеМеню" id="45"/>
+									<ExtendedTooltip name="ПрикладныеОперацииОписаниеРасширеннаяПодсказка" id="46"/>
+									<Events>
+										<Event name="Opening">ПрикладныеОперацииОписаниеОткрытие</Event>
+									</Events>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
+		<InputField name="Описание" id="19">
+			<DataPath>Объект.Описание</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<AutoMaxWidth>false</AutoMaxWidth>
+			<MultiLine>true</MultiLine>
+			<OpenButton>true</OpenButton>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ОписаниеКонтекстноеМеню" id="20"/>
+			<ExtendedTooltip name="ОписаниеРасширеннаяПодсказка" id="21"/>
+			<Events>
+				<Event name="Opening">ОписаниеОткрытие</Event>
+			</Events>
+		</InputField>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:CatalogObject.тм_ВнешниеСервисы</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+		<Attribute name="АдресВхДанныеАвторизации" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Адрес вх данные авторизации</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ВвестиДанныеАутентификации" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ввести данные аутентификации</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ввести данные аутентификации</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ВвестиДанныеАутентификации</Action>
+		</Command>
+	</Commands>
+	<CommandInterface>
+		<CommandBar>
+			<Item>
+				<Command>CommonCommand.тм_СкачатьШаблоныМодулей</Command>
+				<Type>Added</Type>
+				<CommandGroup>FormCommandBarImportant</CommandGroup>
+				<DefaultVisible>false</DefaultVisible>
+			</Item>
+		</CommandBar>
+	</CommandInterface>
+</Form>

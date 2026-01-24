@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.18">
+	<ConfigVersions>
+		<Metadata name="Catalog.тм_ВнешниеСервисы" id="603c01f7-37c8-4f5d-bc2a-3d8186e5c2be" configVersion="8c41cb7e5d05a94d906096213c3ed19c00000000">
+			<Metadata name="Catalog.тм_ВнешниеСервисы.TabularSection.ПрикладныеОперации.Attribute.МодульОперации" id="4377f76e-1dce-4061-af4f-bef436097aa5"/>
+			<Metadata name="Catalog.тм_ВнешниеСервисы.Attribute.Описание" id="4b3595ba-dbe2-406c-be31-48de9a041389"/>
+			<Metadata name="Catalog.тм_ВнешниеСервисы.Attribute.МодульAPI" id="7913b6a1-9160-4126-ac55-b9997742bde1"/>
+			<Metadata name="Catalog.тм_ВнешниеСервисы.Attribute.ИдентификаторДанныхАвторизации" id="918f389d-832d-4d8e-9284-a84e294c5638"/>
+			<Metadata name="Catalog.тм_ВнешниеСервисы.TabularSection.ПрикладныеОперации" id="c4ac003f-576b-45cf-8366-9f6bb549aa74"/>
+			<Metadata name="Catalog.тм_ВнешниеСервисы.Attribute.ИдентификаторСервиса" id="e3bcfccf-2f28-4946-9357-e5901918562e"/>
+			<Metadata name="Catalog.тм_ВнешниеСервисы.TabularSection.ПрикладныеОперации.Attribute.ИдентификаторОперации" id="f1ee9064-82f9-4b35-a065-40e8e9dc96ff"/>
+			<Metadata name="Catalog.тм_ВнешниеСервисы.TabularSection.ПрикладныеОперации.Attribute.Описание" id="ff972146-8333-4b04-807a-bf654f2d8fa1"/>
+		</Metadata>
+		<Metadata name="Catalog.тм_ВнешниеСервисы.Form.ФормаСписка" id="0aec48bd-aa4b-409b-9f4b-48005072f4d6" configVersion="44247dc88b6a284ea7e64abe5854339000000000"/>
+		<Metadata name="Catalog.тм_ВнешниеСервисы.Form.ФормаСписка.Form" id="0aec48bd-aa4b-409b-9f4b-48005072f4d6.0" configVersion="bd6399841720ea47b1f917f18776437100000000"/>
+		<Metadata name="Catalog.тм_ВнешниеСервисы.Form.ФормаЭлемента" id="95f346b8-e948-4bcc-b79f-6ab009e1f039" configVersion="91adbe0e61563646bca993db58ee8b2000000000"/>
+		<Metadata name="Catalog.тм_ВнешниеСервисы.Form.ФормаЭлемента.Form" id="95f346b8-e948-4bcc-b79f-6ab009e1f039.0" configVersion="27a13186b1148e43815b24aceae7da9400000000"/>
+		<Metadata name="Catalog.тм_ВнешниеСервисы.ManagerModule" id="603c01f7-37c8-4f5d-bc2a-3d8186e5c2be.3" configVersion="a9846328992ba24eb79a4dfed95dda2200000000"/>
+		<Metadata name="Catalog.тм_ВнешниеСервисы.ObjectModule" id="603c01f7-37c8-4f5d-bc2a-3d8186e5c2be.0" configVersion="006971f8d06c2e4395393c7395ed400600000000"/>
+		<Metadata name="CommonCommand.тм_СкачатьШаблоныМодулей" id="ff2bb68b-8059-469e-907b-a5066060b1d0" configVersion="a835411326b2fd45bd8a79f43e30a5c200000000"/>
+		<Metadata name="CommonCommand.тм_СкачатьШаблоныМодулей.CommandModule" id="ff2bb68b-8059-469e-907b-a5066060b1d0.2" configVersion="c4843f81c0e9a24cab42fd9cf819d91d00000000"/>
+		<Metadata name="CommonForm.тм_ВводДанныхАутентификацииВнешнегоСервиса" id="d11623fc-9c3d-4eb4-9f6e-882f041fce87" configVersion="5da1df1af02128449c30923c365f978200000000"/>
+		<Metadata name="CommonForm.тм_ВводДанныхАутентификацииВнешнегоСервиса.Form" id="d11623fc-9c3d-4eb4-9f6e-882f041fce87.0" configVersion="2d6a29297b049a498ef364f40831792800000000"/>
+		<Metadata name="CommonForm.тм_ВводДанныхАутентификацииВнешнегоСервиса.Help" id="d11623fc-9c3d-4eb4-9f6e-882f041fce87.1" configVersion="132cd7f144ee674fbcbf8e1050206ff900000000"/>
+		<Metadata name="CommonModule.ОбновлениеИнформационнойБазыТочкаМаршрутизации" id="30faa134-dd47-4a85-9e55-cbeefafe4c36" configVersion="ff9da1be0c383c4db4a383ddc200f28a00000000"/>
+		<Metadata name="CommonModule.ОбновлениеИнформационнойБазыТочкаМаршрутизации.Module" id="30faa134-dd47-4a85-9e55-cbeefafe4c36.0" configVersion="4e93ebb07ac9f1488668884913c0dff400000000"/>
+		<Metadata name="CommonModule.тм_ДанныеВнешнихСервисов" id="e248cc8d-879a-4f5c-a3a7-9a837ca94c46" configVersion="520ff73b9c26df409d8399df3ab19ed100000000"/>
+		<Metadata name="CommonModule.тм_ДанныеВнешнихСервисов.Module" id="e248cc8d-879a-4f5c-a3a7-9a837ca94c46.0" configVersion="48c33d25c2df3b449295fdd5d9258c2300000000"/>
+		<Metadata name="CommonModule.тм_ДанныеВнешнихСервисовВызовСервера" id="fc227cea-9c0c-4cda-9160-7af924b4d923" configVersion="ac891cb4b85dcf4fb849fa4744e33a5400000000"/>
+		<Metadata name="CommonModule.тм_ДанныеВнешнихСервисовВызовСервера.Module" id="fc227cea-9c0c-4cda-9160-7af924b4d923.0" configVersion="770b38e06e3ee747a1da976d002b0fb600000000"/>
+		<Metadata name="CommonModule.тм_ДанныеВнешнихСервисовКлиент" id="22579b12-26a9-46ca-8d5d-d3ae61fa4d56" configVersion="c2906136a21a8646a87218188b35010a00000000"/>
+		<Metadata name="CommonModule.тм_ДанныеВнешнихСервисовКлиент.Module" id="22579b12-26a9-46ca-8d5d-d3ae61fa4d56.0" configVersion="47ab831a98ba5a4e83780ce71ac6eaa100000000"/>
+		<Metadata name="CommonModule.тм_ДанныеВнешнихСервисовПереопределяемый" id="db49d00b-b913-48ba-9502-383860580805" configVersion="ceca3ebba9ff8942b7a108cac89ffd2200000000"/>
+		<Metadata name="CommonModule.тм_ДанныеВнешнихСервисовПереопределяемый.Module" id="db49d00b-b913-48ba-9502-383860580805.0" configVersion="0b638b6114ea4a4c8497de33a20d8ee000000000"/>
+		<Metadata name="CommonModule.тм_ДанныеВнешнихСервисовПовтИсп" id="f7371861-064f-4839-a11b-153664c7ce92" configVersion="d309eafb913c7c4fa222634ac9ab432700000000"/>
+		<Metadata name="CommonModule.тм_ДанныеВнешнихСервисовПовтИсп.Module" id="f7371861-064f-4839-a11b-153664c7ce92.0" configVersion="a77d15d7613b764eb651a9aec442b2a000000000"/>
+		<Metadata name="CommonModule.тм_ТочкаМаршрутизацииСлужебныйФункционал" id="18745087-c685-4f51-91c4-727ea1d01fc5" configVersion="8e6aaa6f7586ec438e1d5c7a1010280e00000000"/>
+		<Metadata name="CommonModule.тм_ТочкаМаршрутизацииСлужебныйФункционал.Module" id="18745087-c685-4f51-91c4-727ea1d01fc5.0" configVersion="685f962149c6704186740f78aa10c62f00000000"/>
+		<Metadata name="CommonModule.тм_УправлениеМаршрутизацией" id="bb7c6285-3129-4e3a-9f64-4cf457262903" configVersion="8bf30c4fd5c1fb4e8097c85418fb243e00000000"/>
+		<Metadata name="CommonModule.тм_УправлениеМаршрутизацией.Module" id="bb7c6285-3129-4e3a-9f64-4cf457262903.0" configVersion="a5b64d89ae13d4438ab8e14666e6b3ff00000000"/>
+		<Metadata name="CommonModule.тм_УправлениеМаршрутизациейСлужебный" id="04f3d5af-b8fe-473d-b6e9-040e4d10b797" configVersion="676c57aebb5829418481332e0517c5a700000000"/>
+		<Metadata name="CommonModule.тм_УправлениеМаршрутизациейСлужебный.Module" id="04f3d5af-b8fe-473d-b6e9-040e4d10b797.0" configVersion="da5ca24a294e8d4cbb2760f7a9196ffb00000000"/>
+		<Metadata name="CommonTemplate.тм_ШаблоныМодулей" id="7ef53a89-1d53-43e0-b55f-9c9384f2ad50" configVersion="837375b805b0df4aa26e2011bdfad48600000000"/>
+		<Metadata name="CommonTemplate.тм_ШаблоныМодулей.Template" id="7ef53a89-1d53-43e0-b55f-9c9384f2ad50.0" configVersion="fa14ab51e439f245a42c901584c4e01c00000000"/>
+		<Metadata name="Configuration.ТочкаМаршрутизации" id="055941e6-8fd5-4537-adc1-649343ffbcb6" configVersion="0dd36a9b8f12bb4b8b16b46c6dd8cea800000000"/>
+		<Metadata name="Configuration.ТочкаМаршрутизации.ClientApplicationInterface" id="437eb95a-3d41-45c7-9593-baf90a679390.b" configVersion="8665921264172d45b4938d5eea3cb9d400000000"/>
+		<Metadata name="Configuration.ТочкаМаршрутизации.MainSectionPicture" id="437eb95a-3d41-45c7-9593-baf90a679390.c" configVersion="1d3c23f20aad444fae13933d0b1ed5bb00000000"/>
+		<Metadata name="Configuration.ТочкаМаршрутизации.Splash" id="437eb95a-3d41-45c7-9593-baf90a679390.2" configVersion="b79e6ec763b278498156941b3957078a00000000"/>
+		<Metadata name="DataProcessor.тм_КонструкторМодулейАпиИПрикладныхОпераций" id="0bad70de-11b3-4e4f-b9f5-0e728bd10201" configVersion="84fea3012015264b95ffa11f9e80551100000000"/>
+		<Metadata name="DataProcessor.тм_КонструкторМодулейАпиИПрикладныхОпераций.Form.Форма" id="2f67fb3a-9c4c-4ef2-afe8-13d1088542dc" configVersion="9d78942af270724296fc04269d84ccd600000000"/>
+		<Metadata name="DataProcessor.тм_КонструкторМодулейАпиИПрикладныхОпераций.Form.Форма.Form" id="2f67fb3a-9c4c-4ef2-afe8-13d1088542dc.0" configVersion="8f34fce76bcbd746a0471f36d5860e9800000000"/>
+		<Metadata name="DataProcessor.тм_КонструкторМодулейАпиИПрикладныхОпераций.ManagerModule" id="0bad70de-11b3-4e4f-b9f5-0e728bd10201.2" configVersion="a65e257211341c42a78cd8e0a8bdf22300000000"/>
+		<Metadata name="DataProcessor.тм_КонструкторМодулейАпиИПрикладныхОпераций.ObjectModule" id="0bad70de-11b3-4e4f-b9f5-0e728bd10201.0" configVersion="488e60ecd1fb7f48b96e5194384b863900000000"/>
+		<Metadata name="DataProcessor.тм_КонтекстВыполненияМетодаDELETE" id="4eb8d75c-3fd7-4fca-89da-ac11b64fa11d" configVersion="c349b22127e0e44cbbb47fadb063500e00000000"/>
+		<Metadata name="DataProcessor.тм_КонтекстВыполненияМетодаDELETE.Form.Форма" id="7c3595ab-b30a-43b3-8f1a-d32458f29fad" configVersion="17727c7e62dbf643b0f531efd5c3a12d00000000"/>
+		<Metadata name="DataProcessor.тм_КонтекстВыполненияМетодаDELETE.Form.Форма.Form" id="7c3595ab-b30a-43b3-8f1a-d32458f29fad.0" configVersion="d2455e2c25c53845ae7300179273ce4d00000000"/>
+		<Metadata name="DataProcessor.тм_КонтекстВыполненияМетодаDELETE.Form.Форма.Help" id="7c3595ab-b30a-43b3-8f1a-d32458f29fad.1" configVersion="d7f1fd393a75da42b51d025738f3677100000000"/>
+		<Metadata name="DataProcessor.тм_КонтекстВыполненияМетодаDELETE.Help" id="4eb8d75c-3fd7-4fca-89da-ac11b64fa11d.1" configVersion="1e2c2824f28f6c4ba7f3a47ca433d30e00000000"/>
+		<Metadata name="DataProcessor.тм_КонтекстВыполненияМетодаDELETE.ManagerModule" id="4eb8d75c-3fd7-4fca-89da-ac11b64fa11d.2" configVersion="35e25cd3a4b5014da9202117850316a300000000"/>
+		<Metadata name="DataProcessor.тм_КонтекстВыполненияМетодаDELETE.ObjectModule" id="4eb8d75c-3fd7-4fca-89da-ac11b64fa11d.0" configVersion="bee2a0c55be523408f5ec961366cca3f00000000"/>
+		<Metadata name="DataProcessor.тм_КонтекстВыполненияМетодаGET" id="bef3fad5-87d1-459b-9a74-f21d8cfec424" configVersion="ba179413c2b595409da30f42a7acc95800000000"/>
+		<Metadata name="DataProcessor.тм_КонтекстВыполненияМетодаGET.Form.Форма" id="a243a7bb-0332-4310-95ba-5a541bc085af" configVersion="e1bc332da9ee7640bc23b384c727db4b00000000"/>
+		<Metadata name="DataProcessor.тм_КонтекстВыполненияМетодаGET.Form.Форма.Form" id="a243a7bb-0332-4310-95ba-5a541bc085af.0" configVersion="8747398b9f475b46bb881a61c49c9c5600000000"/>
+		<Metadata name="DataProcessor.тм_КонтекстВыполненияМетодаGET.ManagerModule" id="bef3fad5-87d1-459b-9a74-f21d8cfec424.2" configVersion="04d7ab6d7ee8ac49b0e429c549338e6b00000000"/>
+		<Metadata name="DataProcessor.тм_КонтекстВыполненияМетодаGET.ObjectModule" id="bef3fad5-87d1-459b-9a74-f21d8cfec424.0" configVersion="a0774462ddf94e458e776d1b69cb7c8700000000"/>
+		<Metadata name="DataProcessor.тм_КонтекстВыполненияМетодаPATCH" id="dc5b4fb0-b9fb-427f-848f-c9cf38c54729" configVersion="72a7d4c77e3d7b48aefdb742b24d07c500000000"/>
+		<Metadata name="DataProcessor.тм_КонтекстВыполненияМетодаPATCH.Form.Форма" id="63ea5173-b724-478a-a120-a8dba90e05fc" configVersion="d5c7d57623990145ab953b27e605900700000000"/>
+		<Metadata name="DataProcessor.тм_КонтекстВыполненияМетодаPATCH.Form.Форма.Form" id="63ea5173-b724-478a-a120-a8dba90e05fc.0" configVersion="9b2530812e684a40a9f7e06e69562ffa00000000"/>
+		<Metadata name="DataProcessor.тм_КонтекстВыполненияМетодаPATCH.Form.Форма.Help" id="63ea5173-b724-478a-a120-a8dba90e05fc.1" configVersion="de536b8ecfa23343abdfe42c598e537d00000000"/>
+		<Metadata name="DataProcessor.тм_КонтекстВыполненияМетодаPATCH.Help" id="dc5b4fb0-b9fb-427f-848f-c9cf38c54729.1" configVersion="fe7013a118736b49a6638848c721c59500000000"/>
+		<Metadata name="DataProcessor.тм_КонтекстВыполненияМетодаPATCH.ManagerModule" id="dc5b4fb0-b9fb-427f-848f-c9cf38c54729.2" configVersion="e3f8424a9d19d94cb69f4cf65685744100000000"/>
+		<Metadata name="DataProcessor.тм_КонтекстВыполненияМетодаPATCH.ObjectModule" id="dc5b4fb0-b9fb-427f-848f-c9cf38c54729.0" configVersion="eb9d4c6237157543adee3966df0588b400000000"/>
+		<Metadata name="DataProcessor.тм_КонтекстВыполненияМетодаPOST" id="8a5487d7-1841-4c02-ba2d-855dcb110376" configVersion="c2fb8607e24fa24487f63da722b167c200000000"/>
+		<Metadata name="DataProcessor.тм_КонтекстВыполненияМетодаPOST.Form.Форма" id="234407ce-9a49-4756-8b6c-a84040196080" configVersion="42ff3c9a1432e445b8b171f189f101e200000000"/>
+		<Metadata name="DataProcessor.тм_КонтекстВыполненияМетодаPOST.Form.Форма.Form" id="234407ce-9a49-4756-8b6c-a84040196080.0" configVersion="1d3f4b638e87b343bc87307be340646b00000000"/>
+		<Metadata name="DataProcessor.тм_КонтекстВыполненияМетодаPOST.Form.Форма.Help" id="234407ce-9a49-4756-8b6c-a84040196080.1" configVersion="23a621ab82b6924bb37957ae498c3d3000000000"/>
+		<Metadata name="DataProcessor.тм_КонтекстВыполненияМетодаPOST.Help" id="8a5487d7-1841-4c02-ba2d-855dcb110376.1" configVersion="ab9f86d85384cb4f9071513f7910a94600000000"/>
+		<Metadata name="DataProcessor.тм_КонтекстВыполненияМетодаPOST.ManagerModule" id="8a5487d7-1841-4c02-ba2d-855dcb110376.2" configVersion="dce0401fd94f8a44a8834e7cf5657b7600000000"/>
+		<Metadata name="DataProcessor.тм_КонтекстВыполненияМетодаPOST.ObjectModule" id="8a5487d7-1841-4c02-ba2d-855dcb110376.0" configVersion="3f5e2b76c4039645aa37527e2913e75300000000"/>
+		<Metadata name="DataProcessor.тм_КонтекстВыполненияМетодаPUT" id="a534e43c-8f55-4acd-a72a-1472696f8806" configVersion="6d5c1ad983fd9043ad9ea4c40d67dea200000000"/>
+		<Metadata name="DataProcessor.тм_КонтекстВыполненияМетодаPUT.Form.Форма" id="95a4256f-3a3f-4f70-87b1-9b0490072403" configVersion="59d34f316a27f147b330a6c880e10fd700000000"/>
+		<Metadata name="DataProcessor.тм_КонтекстВыполненияМетодаPUT.Form.Форма.Form" id="95a4256f-3a3f-4f70-87b1-9b0490072403.0" configVersion="fe21808baac89348a4b6fc6a35162d5700000000"/>
+		<Metadata name="DataProcessor.тм_КонтекстВыполненияМетодаPUT.Form.Форма.Help" id="95a4256f-3a3f-4f70-87b1-9b0490072403.1" configVersion="5e9ba40000f67d41aa2e6c11795a7fe500000000"/>
+		<Metadata name="DataProcessor.тм_КонтекстВыполненияМетодаPUT.Help" id="a534e43c-8f55-4acd-a72a-1472696f8806.1" configVersion="28d51d23c70db647a2a6e19f3c03e59a00000000"/>
+		<Metadata name="DataProcessor.тм_КонтекстВыполненияМетодаPUT.ManagerModule" id="a534e43c-8f55-4acd-a72a-1472696f8806.2" configVersion="992d3f505964ea4486ffe8ed5827d2e300000000"/>
+		<Metadata name="DataProcessor.тм_КонтекстВыполненияМетодаPUT.ObjectModule" id="a534e43c-8f55-4acd-a72a-1472696f8806.0" configVersion="ffb4f606788d1c438fd67d4e8b488ed500000000"/>
+		<Metadata name="DefinedType.тм_МодульАпи" id="7d66b84f-695f-49e0-be65-1ed649eb107b" configVersion="ba4b8638ced84241a1a1dc9770632f1e00000000"/>
+		<Metadata name="Enum.тм_ДоступныеМетодыОбработкиЗапросов" id="dfa473bc-dbc7-49b6-8188-d84a88a541da" configVersion="e9c45468c5f1b143b359ee2a1fbd75ed00000000">
+			<Metadata name="Enum.тм_ДоступныеМетодыОбработкиЗапросов.EnumValue.POST" id="01ef87e3-c97b-4d2c-9d26-9229cf06b44d"/>
+			<Metadata name="Enum.тм_ДоступныеМетодыОбработкиЗапросов.EnumValue.PATCH" id="0b900d58-c875-4455-8e65-1044bd721c3f"/>
+			<Metadata name="Enum.тм_ДоступныеМетодыОбработкиЗапросов.EnumValue.GET" id="461e274a-2921-4ea7-848a-67e40cf7c9bf"/>
+			<Metadata name="Enum.тм_ДоступныеМетодыОбработкиЗапросов.EnumValue.PUT" id="cb9c2335-8316-4f43-a676-3f532661b100"/>
+			<Metadata name="Enum.тм_ДоступныеМетодыОбработкиЗапросов.EnumValue.DELETE" id="fa1fdd00-b28a-4b41-ab6d-0a232bb647f5"/>
+		</Metadata>
+		<Metadata name="Enum.тм_ДоступныеМетодыОбработкиЗапросов.ManagerModule" id="dfa473bc-dbc7-49b6-8188-d84a88a541da.0" configVersion="e40bf120f8a8a344926fac5417ea397900000000"/>
+		<Metadata name="HTTPService.тм_МаршрутизаторAPI" id="db87c0f3-78da-43c9-adfb-54a6c67911a1" configVersion="2b1f66bde32e6849b29a54bc658c89f800000000">
+			<Metadata name="HTTPService.тм_МаршрутизаторAPI.URLTemplate.ПрикладнаяОперацияВнешнегоСервиса.Method.PUT" id="00f2e43b-31fe-4a00-893a-b7dc66d7ec4d"/>
+			<Metadata name="HTTPService.тм_МаршрутизаторAPI.URLTemplate.ПрикладнаяОперацияВнешнегоСервиса" id="27e3c3c0-9d0c-43b6-96f8-0784aae2248f"/>
+			<Metadata name="HTTPService.тм_МаршрутизаторAPI.URLTemplate.Доступность.Method.GET" id="3243f252-0e02-4118-a437-9f3ad8d138b3"/>
+			<Metadata name="HTTPService.тм_МаршрутизаторAPI.URLTemplate.Доступность" id="4963c076-cd24-4c6e-be5c-9e91a72a751c"/>
+			<Metadata name="HTTPService.тм_МаршрутизаторAPI.URLTemplate.ОсновнойМодульВнешнегоСервиса.Method.DELETE" id="5b541610-7543-46dc-b0ae-f32a48d595c0"/>
+			<Metadata name="HTTPService.тм_МаршрутизаторAPI.URLTemplate.ОсновнойМодульВнешнегоСервиса.Method.PATCH" id="62cae1c9-fa02-4482-a44f-ac5e23c4c15f"/>
+			<Metadata name="HTTPService.тм_МаршрутизаторAPI.URLTemplate.ПрикладнаяОперацияВнешнегоСервиса.Method.POST" id="764165f0-075b-4fe3-a95c-3feea1e12d06"/>
+			<Metadata name="HTTPService.тм_МаршрутизаторAPI.URLTemplate.ПрикладнаяОперацияВнешнегоСервиса.Method.GET" id="83172d05-0214-4d88-9b6f-6439cba34328"/>
+			<Metadata name="HTTPService.тм_МаршрутизаторAPI.URLTemplate.ОсновнойМодульВнешнегоСервиса.Method.PUT" id="881db4f2-99c4-4bc5-8d26-fb9506c7c02e"/>
+			<Metadata name="HTTPService.тм_МаршрутизаторAPI.URLTemplate.ОсновнойМодульВнешнегоСервиса.Method.GET" id="88dae4ad-34cb-4f4d-8eb0-3867e4a99ba0"/>
+			<Metadata name="HTTPService.тм_МаршрутизаторAPI.URLTemplate.ПрикладнаяОперацияВнешнегоСервиса.Method.PATCH" id="9c2220e4-37c2-4b1f-8d53-39868f763b41"/>
+			<Metadata name="HTTPService.тм_МаршрутизаторAPI.URLTemplate.ОсновнойМодульВнешнегоСервиса" id="b7ff96eb-9f2b-467b-81dc-5516a67ffc55"/>
+			<Metadata name="HTTPService.тм_МаршрутизаторAPI.URLTemplate.ПрикладнаяОперацияВнешнегоСервиса.Method.DELETE" id="e943c58c-4e19-42d8-b4cc-ec64faa57673"/>
+			<Metadata name="HTTPService.тм_МаршрутизаторAPI.URLTemplate.ОсновнойМодульВнешнегоСервиса.Method.POST" id="eddea1b4-ea3c-466d-bc95-3a9e45f70a6c"/>
+		</Metadata>
+		<Metadata name="HTTPService.тм_МаршрутизаторAPI.Module" id="db87c0f3-78da-43c9-adfb-54a6c67911a1.0" configVersion="b04c67b0cc59a840be4ac6e7ec3899e000000000"/>
+		<Metadata name="Language.Русский" id="902f24eb-76d3-4f2e-b261-6012832729ba" configVersion="f4be1ce995f1a84aa3d7f669ff6f0d2b00000000"/>
+		<Metadata name="Role.тм_БазовыеПраваТочкаМаршрутизации" id="d5e472ff-7f64-4fa4-941b-00c25c7de38d" configVersion="c6b1ed1f472b7e4792d2b2cedacae97f00000000"/>
+		<Metadata name="Role.тм_БазовыеПраваТочкаМаршрутизации.Rights" id="d5e472ff-7f64-4fa4-941b-00c25c7de38d.0" configVersion="21a68de75694af4d8a21ca286f611d3200000000"/>
+		<Metadata name="Role.тм_ДобавлениеИзменениеВнешнихСервисов" id="215f6b65-ade3-4806-827a-cfc6c31dd03b" configVersion="a037a2532e23b14fa2f43884ed460c0e00000000"/>
+		<Metadata name="Role.тм_ДобавлениеИзменениеВнешнихСервисов.Rights" id="215f6b65-ade3-4806-827a-cfc6c31dd03b.0" configVersion="b93375a5e40c7948a75144c9d28e8c8600000000"/>
+		<Metadata name="Role.тм_ЧтениеВнешнихСервисов" id="17f6e521-5b0f-41a1-80ab-cf78ad3096ce" configVersion="d0930dcdb2cffe4990b0a1e5ed22a11100000000"/>
+		<Metadata name="Role.тм_ЧтениеВнешнихСервисов.Rights" id="17f6e521-5b0f-41a1-80ab-cf78ad3096ce.0" configVersion="81caaaae83e4d04494b3a9f8fc76a1ff00000000"/>
+		<Metadata name="Subsystem.тм_ВзаимодействиеСВнешнимиСервисами" id="c06796e1-250b-4e8b-885e-2b912ef57ef5" configVersion="885ba6bf09efcc4e8cf8b528ccf635b900000000"/>
+		<Metadata name="Subsystem.тм_ВзаимодействиеСВнешнимиСервисами.Subsystem.ИнтеграцияБСП" id="da18cdbe-cf38-4cb7-90da-28fdb8f2cc0b" configVersion="9039470ea3e24b4f9b3084493529290900000000"/>
+		<Metadata name="Subsystem.тм_ВзаимодействиеСВнешнимиСервисами.Subsystem.УправлениеВзаимодействиемСВнешнимиСервисами" id="1cd808e5-8e25-480e-9b9b-915133f1bc5e" configVersion="a4e19a94ad280d4f9a5e3298b27c5de100000000"/>
+		<Metadata name="Subsystem.тм_ВзаимодействиеСВнешнимиСервисами.Subsystem.УправлениеВзаимодействиемСВнешнимиСервисами.CommandInterface" id="1cd808e5-8e25-480e-9b9b-915133f1bc5e.1" configVersion="f9924c8ffb2ef84bbdcf8a8f2015143a00000000"/>
+	</ConfigVersions>
+</ConfigDumpInfo>
