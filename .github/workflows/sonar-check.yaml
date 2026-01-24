@@ -3,7 +3,7 @@ name: sonar-check
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   sonar-scanner-run:
