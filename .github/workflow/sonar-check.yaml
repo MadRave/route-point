@@ -7,7 +7,7 @@ on:
 
 jobs:
   sonar-scanner-run:
-    if: github.repository == 'madrave/route-point'
+    if: github.repository == 'MadRave/route-point'
     runs-on: ubuntu-latest
 
     steps:
