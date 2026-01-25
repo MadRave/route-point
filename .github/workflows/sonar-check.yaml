@@ -16,24 +16,8 @@ jobs:
         with:
           fetch-depth: 0
 
-      # Setup java 17 to be default (sonar-scanner requirement as of 5.x)
-      - uses: actions/setup-java@v3
-        with:
-          distribution: 'temurin' # See 'Supported distributions' for available options
-          java-version: '17'
-      # Setup sonar-scanner
-      - name: Setup SonarQube
-        uses: warchant/setup-sonar-scanner@v8
-        with:
-          version: 7.2.0.5079
-
       - name: Run SonarQube analysis
+        uses: SonarSource/sonarqube-scan-action@v2
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-          SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
-        run: |
-          sonar-scanner \
-            -Dsonar.login=${{ secrets.SONAR_TOKEN }} \
-            -Dsonar.host.url=${{ secrets.SONAR_HOST_URL }} \
-            -Dsonar.branch.name=${GITHUB_REF#refs/heads/} \
-            -Dproject.settings=sonar-project.properties
+          SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}       
