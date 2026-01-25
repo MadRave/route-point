@@ -1,5 +1,7 @@
 # Точка маршрутизации
 
+[![Quality gate](https://sonar.openbsl.ru/api/project_badges/quality_gate?project=route-point&token=sqb_41fc4c3111111789b8914d10faa8a10fb46b87bd)](https://sonar.openbsl.ru/dashboard?id=route-point)
+
 Рекомендуемая версия платформы: 8.3.25.1394.
 
 [Документация](./docs/index.md)
